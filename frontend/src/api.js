@@ -1,5 +1,6 @@
 // Backend yahi address par chal raha hoga (server.js dekh, PORT=5000)
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://college-placement-system-ax9s.onrender.com/api";
+
 
 // Generic helper: ek resource (internships/placements/openings) ke saare items laao
 export async function getAll(resource) {
